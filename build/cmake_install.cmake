@@ -127,6 +127,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/team_nu/ROS/build/vicos_ros/depth/localizer/cmake_install.cmake")
   INCLUDE("/home/team_nu/ROS/build/vicos_ros/detection/opencv_detector/cmake_install.cmake")
   INCLUDE("/home/team_nu/ROS/build/vicos_ros/depth/pcl_demos/cmake_install.cmake")
+  INCLUDE("/home/team_nu/ROS/build/vicos_ros/usb_cam/cmake_install.cmake")
   INCLUDE("/home/team_nu/ROS/build/vicos_ros/navigation/costmap_layers/cmake_install.cmake")
   INCLUDE("/home/team_nu/ROS/build/vicos_ros/detection/zbar_detector/cmake_install.cmake")
 

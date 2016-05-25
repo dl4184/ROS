@@ -1098,13 +1098,13 @@ turtlebot_vicos_BINARY_DIR:STATIC=/home/team_nu/ROS/build/vicos_ros/turtlebot_vi
 turtlebot_vicos_SOURCE_DIR:STATIC=/home/team_nu/ROS/src/vicos_ros/turtlebot_vicos
 
 //Value Computed by CMake
-usb_cam_BINARY_DIR:STATIC=/home/team_nu/ROS/build/localizer/usb_cam
+usb_cam_BINARY_DIR:STATIC=/home/team_nu/ROS/build/vicos_ros/usb_cam
 
 //Dependencies for the target
 usb_cam_LIB_DEPENDS:STATIC=general;avcodec;general;swscale;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libcamera_info_manager.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
 
 //Value Computed by CMake
-usb_cam_SOURCE_DIR:STATIC=/home/team_nu/ROS/src/localizer/usb_cam
+usb_cam_SOURCE_DIR:STATIC=/home/team_nu/ROS/src/vicos_ros/usb_cam
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
@@ -1283,7 +1283,7 @@ CMAKE_NO_ANSI_STREAM_HEADERS:INTERNAL=0
 //Does the compiler support std::.
 CMAKE_NO_STD_NAMESPACE:INTERNAL=0
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=15
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

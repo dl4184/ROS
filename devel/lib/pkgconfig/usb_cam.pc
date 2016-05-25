@@ -3,6 +3,6 @@ prefix=/home/team_nu/ROS/devel
 Name: usb_cam
 Description: Description of usb_cam
 Version: 0.3.4
-Cflags: -I/home/team_nu/ROS/src/localizer/usb_cam/include
+Cflags: -I/home/team_nu/ROS/src/vicos_ros/usb_cam/include
 Libs: -L/home/team_nu/ROS/devel/lib -lusb_cam
 Requires: 

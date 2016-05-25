@@ -1437,6 +1437,32 @@ voxelgrid/fast:
 .PHONY : voxelgrid/fast
 
 #=============================================================================
+# Target rules for targets named usb_cam
+
+# Build rule for target.
+usb_cam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usb_cam
+.PHONY : usb_cam
+
+# fast build rule for target.
+usb_cam/fast:
+	$(MAKE) -f vicos_ros/usb_cam/CMakeFiles/usb_cam.dir/build.make vicos_ros/usb_cam/CMakeFiles/usb_cam.dir/build
+.PHONY : usb_cam/fast
+
+#=============================================================================
+# Target rules for targets named usb_cam_node
+
+# Build rule for target.
+usb_cam_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usb_cam_node
+.PHONY : usb_cam_node
+
+# fast build rule for target.
+usb_cam_node/fast:
+	$(MAKE) -f vicos_ros/usb_cam/CMakeFiles/usb_cam_node.dir/build.make vicos_ros/usb_cam/CMakeFiles/usb_cam_node.dir/build
+.PHONY : usb_cam_node/fast
+
+#=============================================================================
 # Target rules for targets named _costmap_layers_generate_messages_check_deps_Wall
 
 # Build rule for target.
@@ -1925,6 +1951,8 @@ help:
 	@echo "... topic_tools_generate_messages_lisp"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... voxelgrid"
+	@echo "... usb_cam"
+	@echo "... usb_cam_node"
 	@echo "... _costmap_layers_generate_messages_check_deps_Wall"
 	@echo "... costmap_2d_gencfg"
 	@echo "... costmap_2d_generate_messages_cpp"
