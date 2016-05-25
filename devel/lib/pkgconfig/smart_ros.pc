@@ -1,0 +1,8 @@
+prefix=/home/team_nu/ROS/devel
+
+Name: smart_ros
+Description: Description of smart_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/team_nu/ROS/devel/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "smart_ros")
+set(smart_ros_MAINTAINER "team_nu <team_nu@todo.todo>")
+set(smart_ros_DEPRECATED "")
+set(smart_ros_VERSION "0.0.0")
+set(smart_ros_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "tf")
+set(smart_ros_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "tf")
+set(smart_ros_BUILDTOOL_DEPENDS "catkin")

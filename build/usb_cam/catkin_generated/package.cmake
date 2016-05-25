@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "usb_cam")
+set(usb_cam_MAINTAINER "team_nu <team_nu@todo.todo>")
+set(usb_cam_DEPRECATED "")
+set(usb_cam_VERSION "0.0.0")
+set(usb_cam_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(usb_cam_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(usb_cam_BUILDTOOL_DEPENDS "catkin")

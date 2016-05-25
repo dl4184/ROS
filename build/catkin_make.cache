@@ -1,0 +1,2 @@
+vicos_ros/communication/julius_ros:vicos_ros/communication/speech_proxy:vicos_ros/communication/voice_navigation:vicos_ros/depth/localizer:vicos_ros/depth/pcl_demos:vicos_ros/detection/detection_msgs:vicos_ros/detection/dlib_detector:vicos_ros/detection/ferns_detector:vicos_ros/detection/opencv_detector:vicos_ros/detection/zbar_detector:vicos_ros/navigation/costmap_layers:vicos_ros/turtlebot_vicos
+-DCATKIN_DEVEL_PREFIX=/home/team_nu/ROS/devel -DCMAKE_INSTALL_PREFIX=/home/team_nu/ROS/install -G Unix Makefiles

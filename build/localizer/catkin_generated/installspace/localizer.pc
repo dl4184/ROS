@@ -1,0 +1,8 @@
+prefix=/home/team_nu/ROS/install
+
+Name: localizer
+Description: Description of localizer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/team_nu/ROS/install/lib 
+Requires: 
